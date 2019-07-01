@@ -11,3 +11,11 @@ function logDriversByHometown(drivers, location) {
     }
   }
 }
+
+function numberSorter(n1, n2) {
+  return n1-n2;
+}
+
+function driversByRevenue(drivers) {
+  return drivers.sort(numberSorter);
+}
