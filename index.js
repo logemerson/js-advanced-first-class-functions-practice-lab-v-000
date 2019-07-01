@@ -23,12 +23,11 @@ function driversByRevenue(drivers) {
   return orderedDrivers;
 }
 
-function nameSorter(driver1, driver2) {
+const nameSorter = function(driver1, driver2) {
   return driver1.localeCompare(driver2);
 }
 
 function driversByName(drivers) {
   const driversCopy = Object.assign([], drivers);
-  debugger;
   const orderedDrivers = driversCopy.sort(nameSorter);
 }
