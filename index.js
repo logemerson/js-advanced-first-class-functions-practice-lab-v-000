@@ -38,7 +38,7 @@ function totalRevenue(drivers) {
   let totalRev = 0;
 
   drivers.forEach(function (driver) {
-    totalRev += driver.reven\ue;
+    totalRev += driver.revenue;
   });
   return totalRev;
 }
