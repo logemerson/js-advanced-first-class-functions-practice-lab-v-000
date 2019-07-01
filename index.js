@@ -12,10 +12,10 @@ function logDriversByHometown(drivers, location) {
   }
 }
 
-function numberSorter(n1, n2) {
-  return n1-n2;
+function revenueSorter(driver1, driver2) {
+  return driver1.revenue-driver2.revenue;
 }
 
 function driversByRevenue(drivers) {
-  return drivers.sort(numberSorter);
+  return drivers.sort(revenueSorter);
 }
