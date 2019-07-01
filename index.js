@@ -19,6 +19,5 @@ function revenueSorter(driver1, driver2) {
 function driversByRevenue(drivers) {
   // const orderedDrivers = drivers.sort(revenueSorter);
   const driversCopy = Object.assign({}, drivers);
-  debugger;
   return orderedDrivers;
 }
