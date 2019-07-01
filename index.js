@@ -43,7 +43,9 @@ function totalRevenue(drivers) {
   return totalRev;
 }
 
+
 function averageRevenue(drivers) {
+  debugger;
   const avgRev = totalRevenue(drivers) / drivers.length;
 }
 
