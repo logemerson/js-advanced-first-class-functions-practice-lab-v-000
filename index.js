@@ -34,3 +34,11 @@ function driversByName(drivers) {
   return orderedDrivers;
 }
 
+function totalRevenue(drivers) {
+  let totalRev = 0;
+
+  drivers.forEach(function (driver) {
+    totalRev += driver.reveneu;
+  });
+  return totalRev;
+}
