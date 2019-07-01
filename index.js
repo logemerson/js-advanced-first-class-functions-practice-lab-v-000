@@ -30,4 +30,6 @@ const nameSorter = function(driver1, driver2) {
 function driversByName(drivers) {
   const driversCopy = Object.assign([], drivers);
   const orderedDrivers = driversCopy.sort(nameSorter);
+  
+  return orderedDrivers;
 }
